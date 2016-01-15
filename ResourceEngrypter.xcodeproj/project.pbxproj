@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4E763BE71C45656F00C36713 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E763BE61C45656F00C36713 /* main.m */; };
+		4E763BEF1C45659C00C36713 /* Encrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E763BEE1C45659C00C36713 /* Encrypter.m */; };
+		4E763C031C45670000C36713 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E763BF81C45670000C36713 /* RNDecryptor.m */; };
+		4E763C041C45670000C36713 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E763BFA1C45670000C36713 /* RNEncryptor.m */; };
+		4E763C401C46766D00C36713 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E763C3F1C46766D00C36713 /* RNCryptor.m */; };
+		4E763C451C4676ED00C36713 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E763C441C4676ED00C36713 /* RNCryptorEngine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,20 @@
 /* Begin PBXFileReference section */
 		4E763BE31C45656F00C36713 /* ResourceEngrypter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ResourceEngrypter; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E763BE61C45656F00C36713 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E763BED1C45659C00C36713 /* Encrypter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encrypter.h; sourceTree = "<group>"; };
+		4E763BEE1C45659C00C36713 /* Encrypter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Encrypter.m; sourceTree = "<group>"; };
+		4E763BF71C45670000C36713 /* RNDecryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDecryptor.h; sourceTree = "<group>"; };
+		4E763BF81C45670000C36713 /* RNDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDecryptor.m; sourceTree = "<group>"; };
+		4E763BF91C45670000C36713 /* RNEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNEncryptor.h; sourceTree = "<group>"; };
+		4E763BFA1C45670000C36713 /* RNEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEncryptor.m; sourceTree = "<group>"; };
+		4E763C361C456CDF00C36713 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = RNCryptor/logo.png; sourceTree = "<group>"; };
+		4E763C3A1C4674D700C36713 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		4E763C3E1C46766D00C36713 /* RNCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		4E763C3F1C46766D00C36713 /* RNCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptor.m; sourceTree = "<group>"; };
+		4E763C411C4676ED00C36713 /* RNCryptor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-Prefix.pch"; sourceTree = "<group>"; };
+		4E763C421C4676ED00C36713 /* RNCryptor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Private.h"; sourceTree = "<group>"; };
+		4E763C431C4676ED00C36713 /* RNCryptorEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptorEngine.h; sourceTree = "<group>"; };
+		4E763C441C4676ED00C36713 /* RNCryptorEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptorEngine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +76,31 @@
 		4E763BE51C45656F00C36713 /* ResourceEngrypter */ = {
 			isa = PBXGroup;
 			children = (
+				4E763BF01C45670000C36713 /* RNCryptor */,
 				4E763BE61C45656F00C36713 /* main.m */,
+				4E763BED1C45659C00C36713 /* Encrypter.h */,
+				4E763BEE1C45659C00C36713 /* Encrypter.m */,
+				4E763C361C456CDF00C36713 /* logo.png */,
+				4E763C3A1C4674D700C36713 /* x.png */,
 			);
 			path = ResourceEngrypter;
+			sourceTree = "<group>";
+		};
+		4E763BF01C45670000C36713 /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				4E763C411C4676ED00C36713 /* RNCryptor-Prefix.pch */,
+				4E763C421C4676ED00C36713 /* RNCryptor+Private.h */,
+				4E763C431C4676ED00C36713 /* RNCryptorEngine.h */,
+				4E763C441C4676ED00C36713 /* RNCryptorEngine.m */,
+				4E763C3E1C46766D00C36713 /* RNCryptor.h */,
+				4E763C3F1C46766D00C36713 /* RNCryptor.m */,
+				4E763BF71C45670000C36713 /* RNDecryptor.h */,
+				4E763BF81C45670000C36713 /* RNDecryptor.m */,
+				4E763BF91C45670000C36713 /* RNEncryptor.h */,
+				4E763BFA1C45670000C36713 /* RNEncryptor.m */,
+			);
+			path = RNCryptor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E763C041C45670000C36713 /* RNEncryptor.m in Sources */,
+				4E763BEF1C45659C00C36713 /* Encrypter.m in Sources */,
 				4E763BE71C45656F00C36713 /* main.m in Sources */,
+				4E763C451C4676ED00C36713 /* RNCryptorEngine.m in Sources */,
+				4E763C031C45670000C36713 /* RNDecryptor.m in Sources */,
+				4E763C401C46766D00C36713 /* RNCryptor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Encrypter.h"
 
 int main(int argc, const char * argv[]) {
   @autoreleasepool {
-      // insert code here...
-      NSLog(@"Hello, World!");
+    
+    NSString* path = @"/path/to/resource";
+    NSString* encryptedPath = @"/path/to/encryptedResource";
+    [Encrypter encryptFile:path andSaveToPath:encryptedPath];
   }
     return 0;
 }
